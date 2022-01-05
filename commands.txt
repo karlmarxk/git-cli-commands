@@ -1,0 +1,37 @@
+#To initialize Git
+git init
+
+#To check the status
+git status
+
+#To create new branch and switch to new branch
+git checkout -b newBranch
+or
+git switch -c newBranch
+
+#To stage the changes
+git add *
+
+#To commit the changes to the new branch
+git commit -m "ANY MESSAGE"
+
+#To switch back to main branch
+git checkout main
+
+#Alternate commands to switch
+git switch branchName
+
+#To list all branches
+git branch
+
+#To rename a branch
+git branch -m currentName newName
+
+#To rename a branch that you have checked out
+git branch -m newName
+
+#To delete a branch
+git branch -d branchName
+
+#To force delete a branch with unmerged commits
+git brancg -D branchName
