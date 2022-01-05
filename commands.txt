@@ -34,4 +34,25 @@ git branch -m newName
 git branch -d branchName
 
 #To force delete a branch with unmerged commits
-git brancg -D branchName
+git branch -D branchName
+
+#To merge a branch (should be in target branch)
+git merge sourceBranch
+
+#To compare branches
+git diff branch1 branch2
+
+#To display changed and not committed to staging
+git diff
+
+#To display changed and staged for commit
+git diff --cached
+
+#To display changes since last commit
+git diff HEAD
+
+#To display difference between 2 commits
+git diff commitID1 commitID2
+
+
+
