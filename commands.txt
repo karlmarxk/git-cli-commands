@@ -54,5 +54,15 @@ git diff HEAD
 #To display difference between 2 commits
 git diff commitID1 commitID2
 
+#To pull code from remote repo to local
+git clone <remote url>
 
+#To list remote urls
+git remote -v
+
+#To list branches on remote repo
+git ls-remote
+
+#To list remote and local branches
+git branches -a
 
