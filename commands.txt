@@ -54,6 +54,9 @@ git diff HEAD
 #To display difference between 2 commits
 git diff commitID1 commitID2
 
+#To ignore whitespace changes
+git diff -w
+
 #To pull code from remote repo to local
 git clone <remote url>
 
@@ -65,4 +68,12 @@ git ls-remote
 
 #To list remote and local branches
 git branches -a
+
+#To list the commits in current branch
+git log --oneline
+
+#To list the commits from other branch
+git log branchName --oneline
+
+
 
