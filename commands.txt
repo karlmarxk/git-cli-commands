@@ -20,8 +20,7 @@ git commit -m "ANY MESSAGE"
 
 #To switch back to main branch
 git checkout main
-
-#Alternate commands to switch
+or
 git switch branchName
 
 #To list all branches
@@ -80,4 +79,10 @@ git log --oneline
 
 #To list the commits from other branch
 git log branchName --oneline
+
+#To fetch remote branch
+git fetch origin <remote branch>
+
+#To push the local branch to remote and set origin as upstream
+git push -u origin <local branch>
 
