@@ -74,6 +74,3 @@ git log --oneline
 
 #To list the commits from other branch
 git log branchName --oneline
-
-
-
