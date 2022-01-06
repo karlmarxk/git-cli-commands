@@ -86,3 +86,8 @@ git fetch origin <remote branch>
 #To push the local branch to remote and set origin as upstream
 git push -u origin <local branch>
 
+git stash
+git stash apply
+git stash drop
+git stash list
+git stash pop
